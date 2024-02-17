@@ -1,0 +1,151 @@
+{
+	"width": 1280,
+	"height": 720,
+	"fps": 30,
+	"main": "./script/_bootstrap.js",
+	"assets": {
+		"_bootstrap": {
+			"type": "script",
+			"path": "script/_bootstrap.js",
+			"global": true
+		},
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"nc217711": {
+			"type": "audio",
+			"path": "audio/nc217711",
+			"systemId": "music",
+			"duration": 211305
+		},
+		"back": {
+			"type": "image",
+			"path": "image/back.png",
+			"width": 1280,
+			"height": 720
+		},
+		"number": {
+			"type": "image",
+			"path": "image/number.png",
+			"width": 300,
+			"height": 53
+		},
+		"number_mini": {
+			"type": "image",
+			"path": "image/number_mini.png",
+			"width": 230,
+			"height": 41
+		},
+		"pairs": {
+			"type": "image",
+			"path": "image/pairs.png",
+			"width": 158,
+			"height": 42
+		},
+		"scroll0": {
+			"type": "image",
+			"path": "image/scroll0.png",
+			"width": 90,
+			"height": 250
+		},
+		"scroll1": {
+			"type": "image",
+			"path": "image/scroll1.png",
+			"width": 90,
+			"height": 250
+		},
+		"tile": {
+			"type": "image",
+			"path": "image/tile.png",
+			"width": 590,
+			"height": 320
+		},
+		"score": {
+			"type": "image",
+			"path": "image/score.png",
+			"width": 40,
+			"height": 40
+		},
+		"seconds": {
+			"type": "image",
+			"path": "image/seconds.png",
+			"width": 40,
+			"height": 40
+		},
+		"nc182053": {
+			"type": "audio",
+			"path": "audio/nc182053",
+			"systemId": "sound",
+			"duration": 214
+		},
+		"nc238228": {
+			"type": "audio",
+			"path": "audio/nc238228",
+			"systemId": "sound",
+			"duration": 1056
+		},
+		"nc217393": {
+			"type": "audio",
+			"path": "audio/nc217393",
+			"systemId": "sound",
+			"duration": 209
+		},
+		"retry": {
+			"type": "image",
+			"path": "image/retry.png",
+			"width": 155,
+			"height": 40
+		},
+		"slide0": {
+			"type": "image",
+			"path": "image/slide0.png",
+			"width": 1280,
+			"height": 720
+		},
+		"slide1": {
+			"type": "image",
+			"path": "image/slide1.png",
+			"width": 1280,
+			"height": 720
+		},
+		"slide2": {
+			"type": "image",
+			"path": "image/slide2.png",
+			"width": 1280,
+			"height": 720
+		},
+		"next": {
+			"type": "image",
+			"path": "image/next.png",
+			"width": 200,
+			"height": 100
+		},
+		"start": {
+			"type": "image",
+			"path": "image/start.png",
+			"width": 200,
+			"height": 100
+		},
+		"record": {
+			"type": "image",
+			"path": "image/record.png",
+			"width": 200,
+			"height": 100
+		}
+	},
+	"moduleMainScripts": {},
+	"environment": {
+		"sandbox-runtime": "3",
+		"nicolive": {
+			"supportedModes": [
+				"ranking"
+			],
+			"preferredSessionParameters": {
+				"totalTimeLimit": 170
+			}
+		}
+	},
+	"globalScripts": []
+}
